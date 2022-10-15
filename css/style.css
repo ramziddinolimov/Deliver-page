@@ -77,3 +77,114 @@ body {
     color: #fff;
 }
 
+.main {
+    background-image: url("../img/IMAGE\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.main .container {
+    display: flex;
+    align-items: center;
+}
+
+.main-text, .main-photo {
+    width: 45%;
+    margin-top: 100px;
+    background-size: cover;
+}
+
+.main-photo img {
+    width: 356px;
+    margin-left: 60px;
+}
+
+.main-link {
+    color: #FF5634;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-title {
+    font-size: 62px;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.main-subtext {
+    color: #656565;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.main-boxlink a {
+    border: 1px solid #EDEDED;
+    box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+    border-radius: 12px;
+    padding: 20px 30px;
+    color: black;
+    transition: .5s;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 20px;
+}
+
+.main-boxlink a:hover {
+    background-color: #FF5634;
+    color: #fff;
+}
+
+.main-boxlink {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #CACACA;
+}
+
+.main-list {
+    display: flex;
+    margin-top: 50px;
+}
+
+.main-item {
+    margin-right: 25px;
+}
+
+.main-item h2 {
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.main-item h2 span {
+    color: #FF5634;
+}
+
+.main-item p {
+    color: #656565;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.world-text {
+    text-align: center;
+    margin-top: 100px;
+    color: #656565;
+    font-size: 16px;
+}
+
+.world-photo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-bottom: 2px solid #CACACA;
+    padding-bottom: 100px;
+}
+
