@@ -243,9 +243,18 @@ body {
 .simple-wrapper {
     text-align: center;
     margin: 50px 0;
+    border-bottom: 2px solid #CACACA;
+    padding-bottom: 100px;
 }
 
-.simple-wrapper a {
+.great-wrapper {
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simple-wrapper a, .great-wrapper a {
     border: 1px solid #EDEDED;
     color: #111;
     padding: 20px 40px;
@@ -254,8 +263,60 @@ body {
     transition: .5s;
 }
 
-.simple-wrapper a:hover {
+.simple-wrapper a:hover, .great-wrapper a:hover{
     background-color: #FF5634;
     color: #fff;
 }
 
+.great .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.great-text, .great-photo {
+    width: 45%;
+}
+
+.great-title {
+    font-size: 40px;
+}
+
+.great-subtext {
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 25px;
+    color: #656565;
+}
+
+.great-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.great-item {
+    width: 45%;
+    margin-top: 20px;
+}
+
+.great-item h4 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.great-item p {
+    font-size: 14px;
+    color: #656565;
+    text-align: center;
+}
+
+.great .container {
+    background-image: url("../img/IMAGE\ \(12\).png");
+    background-position-x: 530px;
+    background-position-y: 100px;
+    background-repeat: no-repeat;
+}
