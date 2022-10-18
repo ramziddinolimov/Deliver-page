@@ -320,3 +320,54 @@ body {
     background-position-y: 100px;
     background-repeat: no-repeat;
 }
+
+.burger {
+    background-color: #121212;
+}
+
+.burger .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.burger-text, .burger-photo {
+    width: 45%;
+}
+
+.burger-photo {
+    display: flex;
+}
+
+.burger-title {
+    font-size: 50px;
+    color: #fff;
+}
+
+.burger-subtext {
+    font-size: 14px;
+    color: #fff;
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.burger-link {
+    background-color: #FF5634;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: .5s;
+}
+
+.burger-photo-one {
+    margin-right: 20px;
+}
+
+.burger-photo-one img {
+    margin-bottom: 20px;
+}
+
+.burger-photo-two img {
+    margin-top: 30px;
+}
