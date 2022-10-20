@@ -466,3 +466,74 @@ body {
     background-color: #FF5634;
     color: #fff;
 }
+
+.location .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location-photo, .location-text {
+    width: 45%;
+}
+
+.location-photo {
+    background-color: #FF5634;
+    position: relative;
+    width: 50%;
+    height: 650px;
+    padding: 60px 60px 60px;
+    border-radius: 30px;
+}
+
+
+
+.location-img {
+    position: absolute;
+    right: 30px;
+    top: 220px;
+}
+
+.location-text h2 {
+    font-size: 40px;
+}
+
+.location-text p {
+    color: #656565;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 20px 0;
+    width: 80%;
+}
+
+.location-item {
+    width: 90%;
+    padding-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    transition: .8s;
+}
+
+.location-item-box h3 {
+    font-size: 18px;
+}
+
+.location-item-box p {
+    color: #656565;
+    font-size: 14px;
+    transition: .8s;
+}
+
+.location-item:hover {
+    border-radius: 10px;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px black;
+    background-color: #FF5634;
+    color: #fff;
+    cursor: pointer;
+}
+
+.location-item-box:hover p {
+    color: #fff;
+}
