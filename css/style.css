@@ -537,3 +537,21 @@ body {
 .location-item-box:hover p {
     color: #fff;
 }
+
+.super .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 200px;
+}
+
+.location-imgg {
+    position: absolute;
+    right: 180px;
+    top: 200px;
+}
+
+.location-backk {
+    margin-left: 100px;
+}
