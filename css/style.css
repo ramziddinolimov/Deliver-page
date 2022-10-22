@@ -705,3 +705,48 @@ body {
     color: #fff;
     margin-top: 30px;
 }
+
+.footer-deliver {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.deliver-text p {
+    color: #656565;
+    font-size: 14px;
+    width: 70%;
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.deliver-button a {
+    background-color: #FF5634;
+    font-size: 14px;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.deliver-button:hover .button_link {
+    display: none !important;
+    
+}
+
+
+.deliver_ios:hover {
+    background-image: url("../img/ueberblick-ios-versionen-liste-apple.jpg");
+    width: 50%;
+    right: 200px;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+    position: absolute;
+    height: 50px;
+}
+
+
+
