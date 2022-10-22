@@ -555,3 +555,96 @@ body {
 .location-backk {
     margin-left: 100px;
 }
+
+.client-title {
+    margin-top: 200px;
+    color: #121212;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.client-box-text {
+    color: #656565;
+    font-size: 14px;
+    width: 40%;
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.client-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.client-box-link, .client-link-app {
+    border: 2px solid #EDEDED;
+    margin-right: 20px;
+    color: black;
+    padding: 25px 40px;
+    border-radius: 10px;
+    transition: .6s;
+    font-size: 16px;
+}
+
+.client-box-link:hover, .client-link-app:hover {
+    background-color: #FF5634;
+    color: #fff;
+}
+
+.client-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.client-item {
+    margin: 20px 0;
+    width: 30%;
+    background-color: #fff;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+    padding: 30px;
+    transition: .8s;
+}
+
+.client-item:hover {
+    background-color: darkgray;
+    transform: scale(1.3)rotate(360deg);
+    box-shadow: 0px 0px 15px 1px black;
+}
+
+.client-item-photo {
+    display: flex;
+    align-items: center;
+}
+
+.client-span {
+    margin-left: 20px;
+}
+
+.client-span h6 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.client-span a {
+    color: #FF5634;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.client-item p {
+    color: #656565;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+.client-item:hover p {
+    color: #fff;
+}
